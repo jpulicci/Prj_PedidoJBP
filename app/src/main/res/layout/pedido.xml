@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_codcontato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CodContato" />
+
+            <EditText
+                android:id="@+id/et_desccontato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DescricaoContato" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_coditem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CodItem" />
+
+            <EditText
+                android:id="@+id/et_descitem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ItemDescricao" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/pedido_lvlistapedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/pedido_btnEnvia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Envia" />
+
+            <Button
+                android:id="@+id/pedido_btn_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
